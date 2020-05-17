@@ -1,8 +1,8 @@
 # 鄧俊采 - UI 开发者 | 跨栈设计师
 
-![](https://pic4.zhimg.com/80/v2-3625104666d70baa294e9a08b89f9dcf_720w.jpg)
-
 > 你好，我是鄧俊采，一个兴趣广泛的 Web 开发者，擅长人机交互与互动体验设计。
+
+![](https://pic4.zhimg.com/80/v2-3625104666d70baa294e9a08b89f9dcf_720w.jpg)
 
 ## 1. 教育经历
 
