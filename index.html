@@ -6,8 +6,9 @@
   <title>鄧登举 | UI 开发专家</title>
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="bg-black">
+<body style="background-color: #161616;">
   <section class="container m-auto pt-10 pb-64 flex justify-between">
     <span class="bg-white text-black text-2xl font-semibold px-2">DDJ</span>
     <span class="text-white">
@@ -43,7 +44,7 @@
     class="container m-auto flex justify-between py-48" 
     >
     <div class="w-1/2 pr-8">
-      <h2 class="text-4xl text-white">我的最大乐趣是开发自己</h2>
+      <h2 class="text-4xl text-white"># 我的最大乐趣是开发自己</h2>
       <p class="text-2xl text-gray-600 py-4">我喜欢涉猎不同的领域，来尝试各种各样的可能性，代码、设计、写作、音乐、Vlog 等等，我能在自己感兴趣的领域快速上手且持续专注。</p>
       <p class="text-2xl text-gray-600 py-4">因此我不太担心某项技术淘汰或者框架过时。</p>
     </div>
@@ -53,24 +54,29 @@
   </section>
 
   <section 
-    class="container m-auto flex justify-between" 
+    class="container m-auto" 
     >
-    <h3 class="text-5xl text-white">1、技术栈</h3>
-  </section>
-
-  <section 
-    class="container m-auto flex justify-between py-48" 
-    >
-    <div class="w-1/2">
-      <img class="w-full h-auto" style="filter: grayscale(100%);" src="./img/work-time.jpg" alt="">
+    <h2 class="text-4xl text-white"># 绝不会重复造轮子</h2>
+    <p class="text-2xl text-gray-600 py-4">很庆幸自己成长于开源精神枝繁叶茂的今天，Web 端的迅猛发展与日益成熟，把开发者对极致用户体验的研究与体验工程化的思考推向新的高度。</p>
+    <p class="text-2xl text-gray-600 py-4">基于成熟的框架和最佳实践进行再创造，回馈社区。</p>
+    <h2 class="text-4xl text-white text-center py-10">Technology Stack</h2>
+    <div class="w-full">
+      <img class="w-full h-auto" src="./img/my-workflow.png" alt="">
     </div>
-    <div class="w-1/2 pl-8">
+
+    <div class="flex justify-between">
+      <div data="https://github.com/Turkyden/vue-typical" class="github-pinner flat" style="visibility: hidden;"></div>
+      <div data="https://github.com/Turkyden/clean-code-typescript" class="github-pinner flat" style="visibility: hidden;"></div>
+      <div data="https://github.com/Turkyden/electron-boilerplate" class="github-pinner flat" style="visibility: hidden;"></div>
+      
+    </div>
+    <!-- <div class="w-1/2 pl-8">
       <h2 class="text-4xl text-white">绝不会重复造轮子</h2>
       <p class="text-2xl text-gray-600 py-4">很庆幸自己成长于开源精神枝繁叶茂的今天，Web 端的迅猛发展与日益成熟，把开发者对极致用户体验的研究与体验工程化的思考推向新的高度。</p>
       <p class="text-2xl text-gray-600 py-4">基于成熟的框架和最佳实践进行再创造，回馈社区。</p>
-    </div>
+    </div> -->
   </section>
-  
+  <script src="./js/GitHubPinner.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({

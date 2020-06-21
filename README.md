@@ -27,12 +27,28 @@
 
 > 我讨厌重复造轮子，更喜欢站在前辈们的肩膀上，提升自己和团队的工作效率，并实现商业价值。
 
-- `React Hook` / `React Spring` / `Green Sock`
-- `ECMAScript 6` / `Typescript`
-- `Threejs` / `WebGL`
-- `Electron`
-- `CodePen` / `CodeSandBox`
-- `GitHub Actions`
+- 框架与类库
+  - `React 16+ (Hook)` / `React Router` / `Mobx`
+- 语法范式
+  - `ECMAScript 6+` / `Typescript` / `jsx or tsx`
+- UI 库与设计语言 
+  - `Material Design` / `Ant Degsign` / `TailwindCSS`
+- 视觉与动画
+  - `Threejs` / `D3` / `Green Sock` / `React Spring`
+- 跨平台
+  - `Electron` / `React Native`
+- UI 测试与文档化
+  - `StoryBook`
+- 代码检查与规范
+  - `ESLint` / `Prettier`
+- 编辑器
+  - `VSCode` / `CodeSandBox` / `CodePen`
+- 版本控制与仓库
+  - `Git` / `GitHub Repository`
+- CI/CD 工具链
+  - `GitHub Actions`
+- 编程思想
+  - `OOP` / `Functional Programing (FP)`
 
 ## 5. 作品集
 
