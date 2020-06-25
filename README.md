@@ -1,27 +1,40 @@
-# 鄧俊采 - UI 开发者 | 跨栈设计师
+# 鄧俊采 - UI 开发专家
 
-> 你好，我是鄧俊采，一个兴趣广泛的 Web 开发者，擅长人机交互与互动体验设计，致力于通过 IT 技术的实现极致的用户体验。
-
-![](https://pic4.zhimg.com/80/v2-3625104666d70baa294e9a08b89f9dcf_720w.jpg)
+> 你好，我是鄧俊采，一个兴趣广泛的 Web 开发者，擅长人机交互与互动体验设计与开发，致力于通过 IT 技术的实现极致的用户体验。
 
 ## 1. 教育经历
 
-同济大学·艺术设计硕士
+同济大学·艺术设计硕士（非全日制）
 
-上海第二工业大学·电子商务应用技术·工学学士
+上海第二工业大学·电子商务应用技术·工学学士（全日制）
 
-## 2. 工作经历
+## 2. 工作履历
 
-上海泛微网络股份有限公司
+上海泛微网络股份有限公司（2017 ~ 至今 ）
 
-上海联和金融信息服务有限公司
+行业：OA 办公自动化 / 企业办公协同软件
+
+任职：中级 Web 开发工程师
 
 ## 3. 项目经验
 
-> 工程化是关乎 IT 技术领域的审美和程序设计的艺术表达，是平衡资源与商业价值的最优解。
+> 工程化是关乎 IT 技术领域的审美和程序设计的艺术表达，是寻找开发资源与商业价值最优解的一种手段。
 
-- Electron 大型跨平台桌面应用，OA 应用诊断
-- Weax UI 组件库设计与 UI 设计系统开发
+- OA 协同办公平台产品 `ecology 9.0` 研发
+  - 负责 `风控` `公文` `政务` 等应用场景下的 OA 解决方案定制开发
+  - SPA + React 技术栈下进行无侵入二次开发
+  - 巧妙运用 `MiddleWare` 中间件的方式改造标准 UI 组件
+  - 使得二次开发在标准 UI 组件运行时成功调用 `Props` 中预先加装的钩子函数
+  - 技术栈：React + React Router + Mobx + Ant Design
+- OA 客服反馈应用诊断桌面程序研发
+  - 独立完成 Electron Forge 工具链的整合，搭建前后端一体的跨平台桌面应用程序脚手架
+  - 该项目主要用于客服人员对老客户已实施的 OA 项目进行系统安全诊断，从中发现新商机并创造价值
+  - 技术栈：Electron + Nodejs + SQLServer + React Hook + Typescript
+- Weax Design 组件库设计与 UI 设计系统的搭建
+  - 编写 SDK 基础库，为标准产品门户元素的二次开发提供最佳实践与解决方案
+  - 编写 UI 设计系统文档，确定设计规范与丰富技术文档
+  - 为企业内部 UI 设计师提供每月技术培训 `Code Camp For Designer`
+  - 技术栈：React + Storybook + TailwindCSS
 
 ## 4. 技术栈 & 工作流
 
@@ -38,7 +51,7 @@
 - 跨平台
   - `Electron` / `React Native`
 - UI 测试与文档化
-  - `StoryBook`
+  - `StoryBook` / `Ject`
 - 代码检查与规范
   - `ESLint` / `Prettier`
 - 编辑器
@@ -48,7 +61,7 @@
 - CI/CD 工具链
   - `GitHub Actions`
 - 编程思想
-  - `OOP` / `Functional Programing (FP)`
+  - `Object Oriented Programming (OOP)` / `Functional Programing (FP)`
 
 ## 5. 作品集
 
@@ -57,14 +70,10 @@
 - Vue Typical 
 - Image Hover Effect 
 
-## Vlog
+## 6. 其他
 
-健身
-
-吉他
-
-说英语
-
-阅读
+健身/吉他/说英语/阅读
 
 - 《You Dont Known Javascript》
+
+![Fustack UI](https://pic4.zhimg.com/80/v2-3625104666d70baa294e9a08b89f9dcf_720w.jpg)
