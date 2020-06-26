@@ -54,6 +54,8 @@
   - `ESLint` / `Prettier`
 - 编辑器
   - `VSCode` / `CodeSandBox` / `CodePen`
+- 设计工具
+  - `Figma` / `Adobe XD` / `Adobe Photoshop` / `Adobe illustrator`
 - 版本控制与仓库
   - `Git` / `GitHub Repository`
 - CI/CD 工具链
@@ -65,8 +67,10 @@
 
 > 我拥抱开源，通过 `Resposition` 和 `Pull Requst` 回馈开源社区，创造与分享驱动着我将他们当做我的事业。
 
-- Vue Typical 
-- Image Hover Effect 
+- [vue-typical](https://github.com/Turkyden/vue-typical)
+- [clean-code-typescript](https://github.com/Turkyden/clean-code-typescript)
+- [imagehover-effects](https://github.com/Turkyden/imagehover-effects)
+- [electron-boilerplate](https://github.com/Turkyden/electron-boilerplate)
 
 ## 6. 其他
 
