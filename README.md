@@ -71,6 +71,7 @@
 - [clean-code-typescript(译)](https://github.com/Turkyden/clean-code-typescript)
 - [imagehover-effects](https://github.com/Turkyden/imagehover-effects)
 - [electron-boilerplate](https://github.com/Turkyden/electron-boilerplate)
+- [更多 &rarr;](https://github.com/Turkyden)
 
 ## 6. 理论积累
 
