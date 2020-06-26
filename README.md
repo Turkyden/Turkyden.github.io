@@ -83,6 +83,6 @@
 
 ## 7. 联系方式
 
-| 微信二维码 | 近期头像 |
-| :------: | :-------: |
-| ![微信](./img/weixin.jpg) | ![个人头像](https://avatars2.githubusercontent.com/u/24560160?s=460&u=a615f51b53cd57ce0cc8e8c0234c2f1618eec99b&v=4) |
+| 微信二维码 |
+| :------: |
+| ![微信](./img/weixin.jpg) |
