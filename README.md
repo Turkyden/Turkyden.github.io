@@ -72,7 +72,7 @@
 - [imagehover-effects](https://github.com/Turkyden/imagehover-effects)
 - [electron-boilerplate](https://github.com/Turkyden/electron-boilerplate)
 
-## 6. 阅读书目
+## 6. 阅读积累
 
 - [You Dont Known Javascript](https://book.douban.com/subject/26383331/)
 - [About Face 4: 交互设计精髓](https://book.douban.com/subject/26642302/)
