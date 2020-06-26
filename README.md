@@ -63,18 +63,23 @@
 - 编程思想
   - `Object Oriented Programming (OOP)` / `Functional Programing (FP)`
 
-## 5. 项目 or 作品集
+## 5. 开源项目
 
 > 我拥抱开源，通过 `Resposition` 和 `Pull Requst` 回馈开源社区，创造与分享驱动着我将他们当做我的事业。
 
 - [vue-typical](https://github.com/Turkyden/vue-typical)
-- [clean-code-typescript](https://github.com/Turkyden/clean-code-typescript)
+- [clean-code-typescript(译)](https://github.com/Turkyden/clean-code-typescript)
 - [imagehover-effects](https://github.com/Turkyden/imagehover-effects)
 - [electron-boilerplate](https://github.com/Turkyden/electron-boilerplate)
 
-## 6. 其他
+## 6. 阅读书目
 
-- 《You Dont Known Javascript》
+- [You Dont Known Javascript](https://book.douban.com/subject/26383331/)
+- [About Face 4: 交互设计精髓](https://book.douban.com/subject/26642302/)
+- [Web 界面设计](https://book.douban.com/subject/3821157/)
+- [界面设计模式（第2版）](https://book.douban.com/subject/25716088/)
+- [写给大家看的设计书（第3版）](https://book.douban.com/subject/3323633/)
+- [设计心理学](https://book.douban.com/subject/26102860/)
 
 ## 7. 联系方式
 
