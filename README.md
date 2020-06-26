@@ -63,7 +63,7 @@
 - 编程思想
   - `Object Oriented Programming (OOP)` / `Functional Programing (FP)`
 
-## 5. 作品集
+## 5. 项目 or 作品集
 
 > 我拥抱开源，通过 `Resposition` 和 `Pull Requst` 回馈开源社区，创造与分享驱动着我将他们当做我的事业。
 
@@ -75,3 +75,9 @@
 ## 6. 其他
 
 - 《You Dont Known Javascript》
+
+## 7. 联系方式
+
+| 微信二维码 | 近期头像 |
+| :------: | :-------: |
+| ![微信](./img/qrcode.jpg) | ![个人头像](https://avatars2.githubusercontent.com/u/24560160?s=460&u=a615f51b53cd57ce0cc8e8c0234c2f1618eec99b&v=4) |
