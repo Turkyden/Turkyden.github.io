@@ -72,7 +72,7 @@
 - [imagehover-effects](https://github.com/Turkyden/imagehover-effects)
 - [electron-boilerplate](https://github.com/Turkyden/electron-boilerplate)
 
-## 6. 阅读积累
+## 6. 理论积累
 
 > UI 视觉设计和前端开发是不该割裂的，那些著名的 UI 设计语言背后都有着深厚的设计学的理论根基。
 
