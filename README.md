@@ -36,7 +36,7 @@
 
 ## 4. 技术栈 & 工作流
 
-> 我讨厌重复造轮子，更喜欢站在前辈们的肩膀上，整合开源项目和最佳实践，提升自己和团队的工作效率，并实现商业价值。
+> 我讨厌重复造轮子，更喜欢站在前辈们的肩膀上，整合开源项目和最佳实践，提升自己和团队的工作效率。
 
 - 框架与类库
   - `React 16+ (Hook)` / `React Router` / `Mobx`
@@ -73,6 +73,8 @@
 - [electron-boilerplate](https://github.com/Turkyden/electron-boilerplate)
 
 ## 6. 阅读积累
+
+> UI 视觉设计和前端开发是不该割裂的，那些著名的 UI 设计语言背后都有着深厚的设计学的理论根基。
 
 - [You Dont Known Javascript](https://book.douban.com/subject/26383331/)
 - [About Face 4: 交互设计精髓](https://book.douban.com/subject/26642302/)
