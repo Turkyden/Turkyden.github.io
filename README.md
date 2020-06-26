@@ -74,8 +74,4 @@
 
 ## 6. 其他
 
-健身/吉他/说英语/阅读
-
 - 《You Dont Known Javascript》
-
-![Fustack UI](https://pic4.zhimg.com/80/v2-3625104666d70baa294e9a08b89f9dcf_720w.jpg)
