@@ -88,4 +88,4 @@
 
 | 微信二维码 |
 | :------: |
-| ![微信](./img/weixin.jpg) |
+| ![微信](https://s1.ax1x.com/2020/06/28/NcOtpj.jpg) |
