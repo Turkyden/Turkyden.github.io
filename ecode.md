@@ -1,10 +1,12 @@
 # ECode 是如何实现无侵入二开的
 
+查询 PC 端所有正在`无侵入二开`的组件：
+
 ``` js
 window.pcComponentsConfig
 ```
 
-## 1. 中间件
+## 1. 中间件源码
 
 ```js
 function middleware(obj, name, saName) {
@@ -94,3 +96,37 @@ const ref = React.createRef();
 ## 参考
 
 [[1] React.forwardRef 转发组件实例](https://zh-hans.reactjs.org/docs/react-api.html#reactforwardref)
+
+``` js
+ecodeSDK.overwritePropsFnQueueMapSet('WeaRightMenu',{ //组件名
+  fn:(newProps)=>{ //newProps代表组件参数
+    //进行位置判断
+    if(!window.location.href.includes('/main/workflow/req')) return;
+
+    if(WfForm.getBaseInfo().nodeid != 3119) return;
+
+    if(WfForm.getBaseInfo().workflowid != 479) return;
+
+    if(WfForm.getBaseInfo().requestid != 485309) return;
+
+    return {
+      ...newProps, 
+      children: [ 
+        newProps.children, 
+        window.wfform.getGlobalStore().tabKey === 'odoc' 
+        && 
+        <div 
+          className="fixed" 
+          style={{ right: 80, top: 70, width: 100, height: 60 }} 
+          onClick={() => antd.Modal.warning({
+            title: '操作说明',
+            content: '为保留用印效果，当前数据暂时无法签署！',
+          })} 
+        />
+      ]
+    }
+  },
+  order:1, //排序字段，如果存在同一个页面复写了同一个组件，控制顺序时使用
+  desc:'透明图层阻止演示数据契约锁签署'
+});
+```
