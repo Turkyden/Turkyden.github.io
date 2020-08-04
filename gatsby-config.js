@@ -1,8 +1,10 @@
+const tailwindConfig = require("./tailwind.config");
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
     author: {
-      name: `Kyle Mathews`,
+      name: `Turkyden`,
       summary: `who lives and works in San Francisco building useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
@@ -71,11 +73,13 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: `gatsby-plugin-postcss`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
+        postCssPlugins: [
+          require(`tailwindcss`)(tailwindConfig)
+        ]
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
