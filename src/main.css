@@ -8,3 +8,7 @@ body{
   background-color: #1a202c;
   color: #ffffff;
 }
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background: rgba(255, 255, 255, 0.01) !important;
+}
