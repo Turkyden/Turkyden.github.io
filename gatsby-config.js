@@ -1,8 +1,6 @@
-const tailwindConfig = require("./tailwind.config");
-
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `鄧登举 | UI 开发专家`,
     author: {
       name: `Turkyden`,
       summary: `who lives and works in San Francisco building useful things.`,
@@ -76,7 +74,7 @@ module.exports = {
       resolve: `gatsby-plugin-postcss`,
       options: {
         postCssPlugins: [
-          require(`tailwindcss`)(tailwindConfig)
+          require(`tailwindcss`)(require("./tailwind.config"))
         ]
       }
     }
