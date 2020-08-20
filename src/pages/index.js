@@ -12,7 +12,7 @@ const HomeIndex = ({ data, location }) => {
       <SEO title="" />
       <section class="container m-auto mt-32">
         <h1 class="text-6xl font-semibold">你好，我是<span className="text-green-500">鄧登举</span>,</h1>
-        <p class="text-6xl font-semibold">一个专长于人机交互的 Web 开发者</p>
+        <p class="text-6xl font-semibold">一个专注于人机交互的 Web 开发者</p>
         <p class="text-4xl py-4">我热爱世界的缤纷多彩，更喜欢重构自己的无限可能 :-)</p>
         <div class="flex pt-2">
           <a class="flex cursor-pointer bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent rounded-full transition duration-150" href="https://github.com/Turkyden" target="_blank" rel="noreferrer">
