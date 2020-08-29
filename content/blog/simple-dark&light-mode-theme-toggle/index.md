@@ -1,6 +1,7 @@
 ---
 title: Simple Dark/Light Mode Theme Toggle (CSS ONLY)
 date: "2015-05-06T23:46:37.121Z"
+keyword: #css#design
 ---
 
 There are several ways that we can implement themes. Generally, these only choose between light and dark mode, but any color scheme could be a choice.

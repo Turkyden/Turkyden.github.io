@@ -8,21 +8,25 @@ module.exports = {
       default: {
         css: {
           maxWidth: '80ch',
-          color: theme('colors.gray.100'),
+          color: theme('colors.gray.300'),
           a: {
-            color: theme('colors.green.400'),
+            color: theme('colors.orange.500'),
             '&:hover': {
-              color: theme('colors.green.400'),
+              color: theme('colors.orange.500'),
             },
           },
           blockquote: {
-            color: theme('colors.gray.500'),
+            color: theme('colors.gray.300'),
+            borderLeftColor: theme('colors.orange.500'),
+          },
+          'ol > li::before': {
+            color: theme('colors.orange.500'),
           },
           strong: {
-            color: theme('colors.green.400'),
+            color: theme('colors.orange.500'),
           },
           code: {
-            color: theme('colors.green.400'),
+            color: theme('colors.orange.500'),
           },
           'code::before': {
             content: '',

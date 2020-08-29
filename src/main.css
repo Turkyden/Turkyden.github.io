@@ -6,9 +6,9 @@
 
 body{
   background-color: #181818;
-  color: #ffffff;
+  color: #F7FAFC;
 }
 
 :not(pre) > code[class*="language-"], pre[class*="language-"] {
-  background: rgb(18, 22, 29) !important
+  background: #1f1f1f !important;
 }

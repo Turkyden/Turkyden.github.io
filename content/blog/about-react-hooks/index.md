@@ -6,7 +6,7 @@ description: "React Hooks 特性的推出将 React 代码极简理念进行到�
 
 > React Hooks 是 v16.8 版本以后才退出的新特性，他可以让你尽情使用 state 状态和其他 React 特性，而无需写一个 class。
 
-为什么要用 React Hooks，在 2018 年的分享上已经指出，可以查看 [YouTube &rarr;]()
+为什么要用 React Hooks，在 2018 年的分享上已经指出，可以查看 [YouTube &rarr;](https://www.youtube.com/watch?v=dpw9EHDh2bM&t=1s)
 
 首先，它不是一个破坏性的的改动，完全能兼容之前的 class 写法。
 
