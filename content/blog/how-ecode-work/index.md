@@ -1,5 +1,5 @@
 ---
-title: Single Page Application 如何进行无侵入开发
+title: SPA 下如何进行无侵入开发
 date: "2015-05-06T23:46:37.121Z"
 keyword: #css#design
 ---
