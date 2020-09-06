@@ -26,7 +26,7 @@ import {Spring} from 'react-spring/renderprops'
 
 不仅适用于 CSS:
 
-```html
+```tsx
 <Spring
   from={{ opacity: 0 }}
   to={{ opacity: 1 }}>
@@ -36,7 +36,7 @@ import {Spring} from 'react-spring/renderprops'
 
 在 SVG 中使用同样效果很棒：
 
-```html
+```tsx
 <Spring
   from={{ x: 100 }}
   to={{ x: 0 }}>
@@ -50,7 +50,7 @@ import {Spring} from 'react-spring/renderprops'
 
 在文本插值中渲染：
 
-```html
+```tsx
 <Spring
   from={{ number: 0 }}
   to={{ number: 1 }}>
@@ -66,7 +66,7 @@ Trail 使元素列表的第一项具有动画效果，其余的元素形成一�
 import {Trail} from 'react-spring/renderprops'
 ```
 
-```html
+```tsx
 <Trail 
   items={items} 
   keys={item => item.key} 
@@ -84,7 +84,7 @@ Transition 有点类似于 Vue 或者 react-transition 中的概念，为动画�
 import {Transition} from 'react-spring/renderprops'
 ```
 
-```html
+```tsx
 <Transition
   items={toggle}
   from={{ position: 'absolute', opacity: 0 }}
@@ -126,7 +126,7 @@ const Container = Keyframes.Spring({
 
 使用组件：
 
-```html
+```tsx
 <Container state="showAndHide">
   {styles => <div style={styles}>Hello</div>}
 </Container>
@@ -150,11 +150,10 @@ const Script = Keyframes.Spring(async next =>
 import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons'
 ```
 
-```html
+```tsx
 <Parallax pages={3} scrolling={false} horizontal ref={ref => (this.parallax = ref)}>
   <ParallaxLayer offset={0} speed={0.5}>
     <span onClick={() => this.parallax.scrollTo(1)}>Layers can contain anything</span>
   </ParallaxLayer>
 </Parallax>
 ```
-
