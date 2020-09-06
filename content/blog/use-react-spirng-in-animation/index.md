@@ -1,5 +1,5 @@
 ---
-title: 一些 React Spring 弹性动画库的 API
+title: 使用 React Spring 编写弹性动画
 date: "2015-05-06T23:46:37.121Z"
 keyword: #css#design
 ---
@@ -67,7 +67,7 @@ import {Trail} from 'react-spring/renderprops'
 ```
 
 ```tsx
-<Trail 
+<Trail
   items={items} 
   keys={item => item.key} 
   from={{transform: 'translate3d(0,-40px,0)'}} 
@@ -108,18 +108,18 @@ import {Keyframes} from 'react-spring/renderprops'
 
 声明一个关键帧组件：
 
-```tsx
+```ts
 // You can create keyframes for springs and trails
 const Container = Keyframes.Spring({
   // Single props
-  show: {opacity: 1},
+  show: { opacity: 1 },
   // Chained animations (arrays)
-  showAndHide: [{opacity: 1}, {opacity: 0}],
+  showAndHide: [{ opacity: 1 }, { opacity: 0 }],
   // Functions with side-effects with access to component props
   wiggle: async (next, cancel, ownProps) => {
-    await next({x: 100, config: config.wobbly})
+    await next({ x: 100, config: config.wobbly })
     await delay(1000)
-    await next({x: 0, config: config.gentle})
+    await next({ x: 0, config: config.gentle })
   }
 })
 ```

@@ -4,11 +4,17 @@
 
 @tailwind utilities;
 
-body{
-  background-color: #181818;
-  color: #F7FAFC;
-}
+@import "../node_modules/slick-carousel/slick/slick.css";
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
 
 :not(pre) > code[class*="language-"], pre[class*="language-"] {
   background: #1f1f1f !important;
+}
+
+.slick-dots li button:before{
+  color: #f5f5f5;
+}
+
+.slick-dots li.slick-active button:before{
+  color: #ed8936;
 }

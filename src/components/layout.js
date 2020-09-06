@@ -1,13 +1,22 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
+import Switch from "./switch"
 
 const Layout = ({ location, title, children }) => {
   // const rootPath = `${__PATH_PREFIX__}/`
 
   // const isHomePage = location.pathname === rootPath
 
+  const [isDark, setIsDark] = useState(document.body.dataset.theme === 'dark');
+
+  const onChangeTheme = () => {
+    const mode = !isDark;
+    setIsDark(mode);
+    document.body.dataset.theme = mode ? "dark" : "light";
+  }
+
   return (
-    <div className="w-full text-white">
+    <div className="bg-primary text-on-primary">
       <header className="container m-auto py-10 flex justify-between">
         <h1 className="bg-white text-gray-900 text-2xl font-semibold px-2">
           <Link to={`/`}>
@@ -15,13 +24,13 @@ const Layout = ({ location, title, children }) => {
           </Link>
         </h1>
         
-        <ul className="flex">
+        <ul className="flex items-center">
           <li className="pl-8"><Link to={`/vlog`}>Vlog</Link></li>
           <li className="pl-8"><Link to={`/blog`}>专栏</Link></li>
           <li className="pl-8"><Link to={`/work`}>作品</Link></li>
           <li className="pl-8"><Link to={`/about`}>关于</Link></li>
-          <li className="pl-8">
-            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><line x1="21" y1="10" x2="7" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="21" y1="18" x2="7" y2="18"></line></svg>
+          <li className="pl-8 flex items-center">
+            <Switch checked={isDark} onChange={onChangeTheme} />
           </li>
         </ul>
         
