@@ -1,3 +1,5 @@
+const TaiwindCSSTheming = require("tailwindcss-theming");
+
 module.exports = {
   purge: [
     './src/**/*.html',
@@ -17,7 +19,7 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
-    require("tailwindcss-theming")({
+    TaiwindCSSTheming({
       variants: {
         dark: true,
         light: true
