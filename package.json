@@ -36,8 +36,7 @@
   },
   "devDependencies": {
     "prettier": "2.0.5",
-    "tailwindcss-dark-mode": "^1.1.6",
-    "tailwindcss-theming": "^2.4.3"
+    "tailwindcss-theming": "^3.0.0-beta.1"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
