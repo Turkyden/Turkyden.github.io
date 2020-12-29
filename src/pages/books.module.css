@@ -1,0 +1,49 @@
+.books {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.book{
+  position: relative;
+  background-color: var(--ifm-card-background-color);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  padding-bottom: 8rem;
+  margin-bottom: 2rem;
+}
+
+.book:hover{
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.bookImage {
+  height: 200px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.books_background{
+  background-color: #0f2531;
+  padding: 2rem 0;
+}
+
+.books_intro{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--ifm-card-background-color);
+  padding: 1rem;
+  height: 8rem;
+  overflow: hidden;
+}
+
+.book:hover .books_intro{
+  height: 11rem;
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
