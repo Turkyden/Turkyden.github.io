@@ -119,7 +119,7 @@ const Block = (props) => <div style={{ color: 'red' }}></div>
 >> 2. 组件化的优势在于视图的拆分和模块复用，更容易做到高内聚低耦合；<br/>
 >> 3. 通用性在于一次学习，随处编写，比如在 React Native，React 360 等；
 >
->> 👍 优点：React 的通用性优势，归功于它使用了[虚拟 DOM]([ffsdf](http://assets.processon.com/chart_image/5fdf6b9a63768907e4aa8ea1.png))，这使得 React 的适用范围变得更加广阔，无论 Web、Native、VR，甚至是 Shell 应用都能灵活开发。<br/>
+>> 👍 优点：React 的通用性优势，归功于它使用了虚拟 DOM，这使得 React 的适用范围变得更加广阔，无论 Web、Native、VR，甚至是 Shell 应用都能灵活开发。<br/>
 >> 👎 缺点：作为一个视图层的框架，官方并不提供一揽子的解决方案，而是交给社区去实现，比如路由管理方案 React Router，全局状态管理方案 Redux，这样增加了技术选型的成本，以及对初学者上手难度上造成一定的干扰。
 > 
 > 但不可否认的是，Facebook 以拥抱社区、拥抱开源的方式，确实促进了 React 生态的繁荣。
