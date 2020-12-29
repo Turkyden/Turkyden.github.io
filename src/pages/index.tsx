@@ -21,7 +21,7 @@ const features = [
     imageUrl: 'img/features/stroy_designer.svg',
     description: (
       <>
-        同济大学·<a href="" target="_blank">艺术设计硕士</a>毕业，具备扎实的设计基础，将视觉设计融入人机交互的开发实践。
+        同济大学·<a href="" target="_blank">艺术设计硕士</a> 毕业，具备扎实的设计基础，将视觉设计融入人机交互的开发实践。
       </>
     ),
   },
