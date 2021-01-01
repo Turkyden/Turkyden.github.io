@@ -6,36 +6,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
 
-const features = [
-  {
-    title: '✨ 3Year+ 经验',
-    imageUrl: 'img/features/story_programing.svg',
-    description: (
-      <>
-        就职于<a href="" target="_blank">泛微 OA</a> (A 股上市)，专注于企业协同办公 SaaS 软件的研发。
-      </>
-    ),
-  },
-  {
-    title: '🖌️ 具备 UI 设计能力',
-    imageUrl: 'img/features/stroy_designer.svg',
-    description: (
-      <>
-        同济大学·<a href="" target="_blank">艺术设计硕士</a> 毕业，具备扎实的设计基础，将视觉设计融入人机交互的开发实践。
-      </>
-    ),
-  },
-  {
-    title: '🧡 拥抱开源文化',
-    imageUrl: 'img/features/story_open_resource.svg',
-    description: (
-      <>
-        关注 github 上热门项目，<a href="" target="_blank">alibaba/hooks</a> 主要贡献者之一。对「技术产品化」有深刻的体会。
-      </>
-    ),
-  },
-];
-
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
@@ -49,6 +19,49 @@ function Feature({imageUrl, title, description}) {
       <p className="text--center">{description}</p>
     </div>
   );
+}
+
+function SectionHeader({ title, desc }) {
+  return (
+    <div className={styles.sectionHeader}>
+      <h2 className={styles.sectionHeader_title}>{title}</h2>
+      <p className={styles.sectionHeader_desc}>{desc}</p>
+    </div>
+  )
+}
+
+function MyWork({}) {
+  return (
+    <div className="card">
+      <div className="card__header">
+        <div className="avatar">
+          <img
+            className="avatar__photo"
+            src="https://turkyden.com/img/logo.svg"
+          />
+          <div className="avatar__intro">
+            <h4 className="avatar__name">icon-c4d</h4>
+            <small className="avatar__subtitle">
+              React / Icon / C4D / Animate Effects
+            </small>
+          </div>
+        </div>
+      </div>
+      <div className="card__body">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor.
+        </p>
+      </div>
+      <div className="card__footer">
+        <div className="button-group button-group--block">
+          <button className="button button--secondary">watchers</button>
+          <button className="button button--secondary">stars</button>
+          <button className="button button--secondary">forks</button>
+        </div>
+      </div>
+    </div>
+  )
 }
 
 function Home() {
@@ -69,23 +82,64 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              💬 Contact Me
+              💬 快联系我
             </Link>
           </div>
         </div>
       </header>
       <main>
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
+        <section className={styles.features}>
+          <div className="container">
+            <div className="row">
+              {[
+                {
+                  title: '✨ 4Year+ 经验',
+                  imageUrl: 'img/features/story_programing.svg',
+                  description: (
+                    <>
+                      熟悉现代前端技术与流行框架 <a href="" target="_blank">React</a> / <a href="" target="_blank">Vue</a> 的使用，基本功扎实，编码习惯良好。
+                    </>
+                  ),
+                },
+                {
+                  title: '🖌️ 具备 UI 设计能力',
+                  imageUrl: 'img/features/stroy_designer.svg',
+                  description: (
+                    <>
+                      同济大学·<a href="" target="_blank">设计硕士</a> 毕业，具备扎实的 UI 设计基础，拥有丰富的 UI 开发实践经验。
+                    </>
+                  ),
+                },
+                {
+                  title: '🧡 拥抱开源文化',
+                  imageUrl: 'img/features/story_open_resource.svg',
+                  description: (
+                    <>
+                      Github 重度使用者，<a href="" target="_blank">alibaba/hooks</a> 主要贡献者之一。对「技术产品化」有深刻理解。
+                    </>
+                  ),
+                }].map((props, idx) => (
+                <Feature key={idx} {...props} />
+              ))}
             </div>
-          </section>
-        )}
+          </div>
+        </section>
+
+
+        <section className={styles.mywork}>
+          <div className="container">
+            <SectionHeader title="My Work" desc="There is some work in my github." />
+            <div className="row">
+              {
+                Array.from(Array(6), v => (
+                  <div className={clsx('col col--4', styles.mywork_card)}>
+                    <MyWork />
+                  </div>
+                ))
+              }
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );

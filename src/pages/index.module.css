@@ -6,8 +6,8 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 8rem 0;
+  text-align: left;
   position: relative;
   overflow: hidden;
 }
@@ -21,7 +21,7 @@
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   color: #ffffff;
 }
 
@@ -33,6 +33,29 @@
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+  height: 18rem;
+  width: 18rem;
+}
+
+.mywork{
+  padding: 2rem 0;
+  background-color: var(--ifm-color-primary-light);
+}
+
+.mywork_card{
+  padding: 1rem 0;
+}
+
+.sectionHeader{
+  text-align: center;
+  padding: 1rem 0;
+  color: var(--ifm-font-color-base-inverse);
+}
+
+.sectionHeader_title{
+  font-size: 2rem;
+}
+
+.sectionHeader_desc{
+  font-size: 1rem;
 }

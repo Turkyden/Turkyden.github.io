@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Hi, i am Turkyden',
-  tagline: 'A Frontend developer, UI designer, Father and Husband.',
+  title: '你好，我是邓登举',
+  tagline: '一个专精于人机交互技术的 Web 开发者',
   url: 'https://turkyden.com/',
   baseUrl: '/',
   // publicPath: 'https://cdn.jsdelivr.net/gh/Turkyden/Turkyden.github.io@gh-pages/',
@@ -12,7 +12,7 @@ module.exports = {
     navbar: {
       title: 'Turkyden',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Hello Turkyden',
         src: 'img/logo.svg',
       },
       items: [
