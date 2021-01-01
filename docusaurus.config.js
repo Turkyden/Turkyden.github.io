@@ -3,6 +3,7 @@ module.exports = {
   tagline: 'A Frontend developer, UI designer, Father and Husband.',
   url: 'https://turkyden.com/',
   baseUrl: '/',
+  // publicPath: 'https://cdn.jsdelivr.net/gh/Turkyden/Turkyden.github.io@gh-pages/',
   onBrokenLinks: 'throw',
   favicon: 'img/logo.svg',
   organizationName: 'Turkyden', // Usually your GitHub org/user name.
@@ -140,9 +141,6 @@ module.exports = {
     <%~ it.preBodyTags %>
     <div id="__docusaurus">
       <%~ it.appHtml %>
-    </div>
-    <div id="outside-docusaurus">
-      <span>Custom markup</span>
     </div>
     <% it.scripts.forEach((script) => { %>
       <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Turkyden/Turkyden.github.io@gh-pages/<%= script %>"></script>
