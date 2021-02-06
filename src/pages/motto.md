@@ -25,4 +25,6 @@ description: 一些摘自编程领域的格言语录
 > **代码是写给人看的，然后顺便给机器运行。**  
 > The code is written for people to read, and then for machines to run.     
 > — *gdut 佚名*
- 
+
+> **过早的优化是万恶之源。**
+> — *Donald Knuth 《计算机编程艺术》*
