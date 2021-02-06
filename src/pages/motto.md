@@ -26,6 +26,6 @@ description: 一些摘自编程领域的格言语录
 > The code is written for people to read, and then for machines to run.     
 > — *gdut 佚名*
 
-> **过早的优化是万恶之源。**
-> Premature optimization is the root of all evil
-> — *Donald Knuth 《计算机编程艺术》*
+> **过早的优化是万恶之源。**  
+> Premature optimization is the root of all evil  
+> — *Donald Knuth 《计算机编程艺术》*  
